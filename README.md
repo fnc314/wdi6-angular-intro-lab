@@ -28,7 +28,7 @@ Check out the list of books and the shopping cart wire frame. Look for elements 
 -	A drop down that let's the user order books by title, author and price.
 -	An 'Add' button on each book that puts it in the shopping cart.
 -	An 'item count' that displays the number of books in the cart. The count should 'pluralize' correctly.
--	A cart row for each item containing titel, author and price.
+-	A cart row for each item containing title, author and price.
 -	A field for the total cart value.
 -	A button that empties the cart.	
 

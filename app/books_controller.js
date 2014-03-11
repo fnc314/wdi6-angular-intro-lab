@@ -19,9 +19,8 @@ bookly.BooksController = function($scope) {
   };
 
   $scope.cartTotal = function(cart) {
-    var total = 0;
+    var total = 0.0;
     _.each(cart, function(book) {
-      
       total = total + book.price;
     });
     return total;
