@@ -18,6 +18,14 @@ bookly.BooksController = function($scope) {
 
   };
 
+  $scope.cartTotal = function(cart) {
+    var total = 0;
+    _.each(cart, function(book) {
+      
+      total = total + book.price;
+    });
+    return total;
+  };
   // $scope.cartCount = function($scope.cart) {
   //   _.each($scope.cart, )
   // };
