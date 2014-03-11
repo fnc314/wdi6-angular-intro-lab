@@ -30,6 +30,10 @@ bookly.BooksController = function($scope) {
   $scope.emptyCart = function(cart) {
     $scope.cart = [];
   };
+
+  $scope.quantify = function(cart, book_id) {
+    return _.where(cart, {id: book_id}).length;
+  };
   // $scope.cartCount = function($scope.cart) {
   //   _.each($scope.cart, )
   // };
