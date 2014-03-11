@@ -8,14 +8,13 @@ bookly.BooksController = function($scope) {
 
   //Code to manage cart goes here
   $scope.cart = [];
-  
 
   $scope.addToCart = function(book) {
-    $scope.cart_item = {};
-    $scope.cart_item.title = book.title;
-    $scope.cart_item.price = book.price;
-    $scope.cart_item.author = book.author;
-    $scope.cart.push($scope.cart_item);
+    // $scope.cart_item = {};
+    // $scope.cart_item.title = book.title;
+    // $scope.cart_item.price = book.price;
+    // $scope.cart_item.author = book.author;
+    $scope.cart.push(book);
 
   };
 
